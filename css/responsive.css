@@ -1,0 +1,511 @@
+
+/* Max-Width:1280px starts */
+@media(max-width:1280px){
+.mx-auto p{
+  font-size: 1.3rem !important;
+}
+
+.social-container {
+  font-size: 1.2rem;
+}
+
+
+.crufus-info div h1{
+  font-size: 3rem;
+}
+
+.crufus-textp{
+  font-size: 1.1rem;
+}
+.contact .contact-head h1{
+  font-size: 2.5rem;
+}
+
+.contact-container .contactInfo .box .text,
+.contact .contact-head p{
+  font-size: 1.1rem;
+}
+
+.contact-container .contactInfo .box .text h3{
+  font-size: 2rem;
+}
+
+
+}
+/* Max-Width:1280px ends */
+
+/* Max-Width:1020px starts */
+@media(min-width: 769px) and (max-width:1020px){
+.links ul {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 80px; /* Adjust based on your header height */
+  right: 2%;
+  width: 30%;
+  background-color: #3D5467; /* Or your desired background color */
+  padding: 0;
+  z-index: 999;
+  border-radius: 5%;
+}
+
+.links ul li {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #3D5467;
+}
+
+.links ul li a {
+  color: #DB5461;
+  font-weight: 600;
+}
+
+.links ul li a:hover{
+    transition: all ease 0.1s;
+    color: #e24f5e89;
+}
+
+.hamburger {
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Show menu when hamburger is clicked */
+.links.active ul {
+  display: flex;
+}
+
+.hero-name{
+  font-size: 7rem;
+}
+
+.social-container {
+  font-size: 1.6rem;
+}
+
+.mx-auto p{
+  font-size: 1.5rem !important;
+}
+
+.about-info{
+  flex-direction: column !important;
+}
+  
+.about-me {
+  padding-left: 0px;
+}
+
+.crufus-info {
+  margin: 0px 20px 0px 90px;
+}
+
+.crufus-info div h1{
+  font-size: 3rem;
+}
+
+.crufus-textp{
+  max-width: 100%; /* Expand to take most of the width on tablet */
+  /* line-height: 1.6; Adjust line height for readability */
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.image-div {
+  margin: 0px 0px 150px 30px;
+}
+
+.image-div img {
+  height: 500px;
+  width: 550px;
+}
+
+.services-container h1{
+  font-size: 3rem;
+  margin-left: 70px;
+}
+
+.services-list h2{
+  font-size: 1.5rem;
+}
+
+.services-list p{
+  font-size: 1.2rem;
+}
+
+.services-list {
+  margin: 50px 20px 0px 20px;
+  padding: 0px 70px;
+}
+
+.contact .contact-head h1{
+  font-size: 2.5rem;
+}
+
+
+.contact-container .contactInfo .box .text,
+.contact .contact-head p{
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.contact-container .contactInfo .box .text h3{
+  font-size: 2rem;
+}
+
+.contactForm {
+  width: 60%;
+  border-radius: 2%;
+}
+
+.contactForm .inputBox span{
+  font-size: 1.5rem;
+}
+
+.contactForm .inputBox input{
+  padding-bottom: 10px;
+}
+
+.contact{
+  padding: 50px;
+}
+
+.contact-container{
+  flex-direction: column;
+}
+
+.contact-container .contactInfo{
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.contactForm .inputBox input[type="submit"]{
+  font-size: 1.3rem;
+}
+
+}
+/* Max-Width:1020px ends */
+
+/* Max-Width:768px starts */
+@media(max-width:768px){
+.links ul {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 80px; /* Adjust based on your header height */
+  right: 2%;
+  width: 30%;
+  background-color: #3D5467; /* Or your desired background color */
+  padding: 0;
+  z-index: 999;
+  border-radius: 5%;
+}
+
+.links ul li {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #3D5467;
+}
+
+.links ul li a {
+  color: #DB5461;
+  font-weight: 600;
+}
+
+.links ul li a:hover{
+    transition: all ease 0.1s;
+    color: #e24f5e89;
+}
+
+.hamburger {
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Show menu when hamburger is clicked */
+.links.active ul {
+  display: flex;
+}
+
+.social-container {
+  font-size: 1.6rem;
+}
+
+.mx-auto p{
+  font-size: 1.7rem !important;
+}
+
+.hero-name{
+  font-size: 6rem;
+}
+
+.about-info{
+  flex-direction: column !important;
+}
+  
+.about-me {
+  padding-left: 0px;
+}
+
+.crufus-info {
+  margin: 0px 20px 0px 50px;
+}
+
+.crufus-info div h1{
+  font-size: 3.5rem;
+}
+
+.crufus-textp{
+  max-width: 100%; /* Expand to take most of the width on tablet */
+  line-height: 1.6; /* Adjust line height for readability */
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.image-div {
+  margin: 0px 0px 150px 15px;
+}
+
+.image-div img {
+  height: 450px;
+  width: 500px;
+}
+
+.services-container h1{
+  font-size: 3.5rem;
+}
+
+.services-list h2{
+  font-size: 2.5rem;
+}
+
+.services-list div a{
+  font-size: 19px;
+}
+
+.services-list p{
+  font-size: 1.5rem;
+}
+
+.contact .contact-head h1{
+  font-size: 3.5rem;
+}
+
+.contact-container .contactInfo .box .text,
+.contact .contact-head p{
+  font-size: 1.35rem;
+}
+
+.contact-container .contactInfo .box .text h3{
+  font-size: 2rem;
+}
+
+.contactForm {
+  width: 70%;
+  border-radius: 2%;
+}
+
+.contactForm h2{
+  font-size: 2.5rem;
+}
+
+.contactForm .inputBox span{
+  font-size: 1.5rem;
+}
+
+.contactForm .inputBox input[type="submit"]{
+  font-size: 1.5rem;
+}
+
+.contactForm .inputBox input{
+  padding-bottom: 10px;
+}
+
+.contact{
+  padding: 50px;
+}
+
+.contact-container{
+  flex-direction: column;
+}
+
+.contact-container .contactInfo{
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+}
+/* Max-Width:768px ends */
+
+/* Max-Width:480px starts */
+@media(max-width:480px){
+.logo{
+  margin-right: 100px;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.logo h1{
+  font-size: 2rem;
+}
+
+.links ul {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 80px; /* Adjust based on your header height */
+  right: 2%;
+  width: 30%;
+  background-color: #3D5467; /* Or your desired background color */
+  padding: 0;
+  z-index: 999;
+  border-radius: 5%;
+}
+
+.links ul li {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #3D5467;
+  font-size: 1rem;
+}
+
+.links ul li a {
+  color: #DB5461;
+  font-weight: 600;
+}
+
+.links ul li a:hover{
+  transition: all ease 0.1s;
+  color: #e24f5e89;
+}
+
+.hamburger {
+  margin-bottom: 10px;
+  display: block;
+}
+/* Show menu when hamburger is clicked */
+.links.active ul {
+  display: flex;
+}
+.display-5 {
+  font-size: 1.7rem;
+}
+
+.py-5 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.hero-name{
+  font-size: 4rem;
+}
+
+.mx-auto p {
+  font-size: 14px !important;
+}
+
+.social-container{
+  font-size: 1.3rem;
+}
+
+.crufus-info {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 0px;
+}
+
+.crufus-info div h1{
+  font-size: 2rem;
+}
+
+.crufus-textp{
+  max-width: 100%; /* Expand to take most of the width on tablet */
+  line-height: 1.8; /* Adjust line height for readability */
+  font-size: 1rem;
+  width: 100%;
+}
+
+.image-div {
+  margin: 0px 15px 50px 15px;
+}
+
+.image-div img {
+  height: 300px;
+  width: 320px;
+}
+
+.services-container h1{
+  font-size: 2.7rem;
+  margin-left: 40px;
+}
+
+.services-list h2{
+  font-size: 1.5rem;
+}
+
+.services-list p{
+  font-size: 1.1rem;
+  text-align: none;
+}
+
+.services-list {
+  margin: 50px 10px 0px 10px;
+  padding: 0px 50px;
+}
+
+.contact {
+  padding: 0;
+}
+.contact-head{
+  min-width: 100%;
+}
+
+.contact .contact-head h1{
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+.contact .contact-head p {
+  font-size: 1.2rem;
+  padding: 0px 20px;
+  margin: px;
+  
+}
+
+.contact-container .contactInfo .box {
+  padding: 20px 20px;
+}
+
+.contact-container .contactInfo .box .text{
+  font-size: 1.1rem;
+}
+
+.contact-container .contactInfo .box .text h3{
+  font-size: 1.5rem;
+}
+
+.contactForm {
+  width: 70%;
+  border-radius: 2%;
+}
+
+.contactForm h2{
+  font-size: 1.2rem;
+}
+
+.contactForm .inputBox span{
+  font-size: 1rem;
+}
+
+.contactForm .inputBox input[type="submit"]{
+  font-size: 1rem;
+}
+
+.contactForm .inputBox input{
+  padding-bottom: 5px;
+}
+
+.contactForm {
+  margin-bottom: 30px;
+}
+}
+/* Max-Width:480px ends */
